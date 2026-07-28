@@ -1,0 +1,24 @@
+{
+    "model_path": "./models/distilbart-cnn-12-6",
+    "model_name": "sshleifer/distilbart-cnn-12-6",
+    "supported_files": [".txt"],
+    "default_summary": "medium",
+    "summary_lengths": {
+        "short": 0.25,
+        "medium": 0.40,
+        "long": 0.60
+    },
+    "minimum_words": 20,
+    "example_input_file": "sample_inputs/ai.txt",
+    "example_summary_length": "medium",
+    "window_title": "Local AI Text Summarizer",
+    "window_size": {
+        "width": 1000,
+        "height": 800
+    },
+    "window_min_size": {
+        "width": 900,
+        "height": 700
+    },
+    "progress_interval": 12
+}
